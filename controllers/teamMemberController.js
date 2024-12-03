@@ -1,4 +1,4 @@
-const TeamMember = require('../models/teamMember');
+const TeamMember = require('../models/teammember');
 
 // ดึงข้อมูลสมาชิกทั้งหมด
 exports.getAllTeamMembers = async (req, res) => {

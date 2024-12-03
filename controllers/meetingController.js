@@ -1,4 +1,4 @@
-const Meeting = require('../models/teammember');
+const Meeting = require('../models/teamMember');
 
 // ดึงข้อมูลการประชุมทั้งหมด
 exports.getAllMeetings = async (req, res) => {
